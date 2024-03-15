@@ -19,5 +19,7 @@ if (firstWord.length < secondWord.length) {
    console.log("Parola piu corta:", firstWord);
    console.log("Parola piu lunga:", secondWord);
 } else {
-   
+   //stampa la parola piu lunga e poi la piu corta
+   console.log("Parola piu lunga:", firstWord);
+   console.log("Parola piu corta:", secondWord);
 }
