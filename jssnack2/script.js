@@ -14,7 +14,7 @@ console.log(secondWord);
 
 //diferenzio le parole la sua lunguezza
 
-if (condition) {
+if (firstWord.length < secondWord.length) {
    
 } else {
    
