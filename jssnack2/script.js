@@ -7,13 +7,15 @@ Il software stampa prima la parola più corta, poi la parola più lunga.*/
 //Se la seconda parola e piu lunga stampo la prima e poi la seconda
 //altrimenti stampo le parole uguali
 
-const firstWord = prompt(La prima parola e:)
-const secondWord = prompt(La seconda parola e:)
+const firstWord = prompt("La prima parola e:");
+const secondWord = prompt("La seconda parola e:");
 console.log(firstWord);
 console.log(secondWord);
 
-if (secondWord > firstWord) {
-   userMessage = (secondWord + ' ' + firstWord);
-} else if () {
-    
+//diferenzio le parole la sua lunguezza
+
+if (condition) {
+   
+} else {
+   
 }
