@@ -6,3 +6,8 @@ const numbersList = [1,2,3,4,5,6,7,8,9,10];
 //DEvo selezioanare due div del dom
 const redNumbers = document.querySelector("#red");
 const greenNumbers = document.querySelector("#green");
+
+//Controllo i pari e i dispari per stamparli
+for(let i = 0; i < numbersList.length; i++){
+    
+}
