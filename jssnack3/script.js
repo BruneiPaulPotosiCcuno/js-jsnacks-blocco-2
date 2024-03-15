@@ -9,10 +9,10 @@ const greenNumbers = document.querySelector("#green");
 
 //Controllo i pari e i dispari per stamparli
 for(let i = 0; i < numbersList.length; i++){
-    let numbers = listNumbers[i];
+    let numbers = numbersList[i];
     if (numbers % 2!==0) {
         redNumbers.append(numbers);
     } else {
-        greeNumbers.append(numbers);
+        greenNumbers.append(numbers);
     }
 }
